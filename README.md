@@ -1,19 +1,21 @@
-# prep code Challenges
+Challenge 07
+For today Problem Solving exercise please follow the instructions:
+ 
 
-## Language: `JavaScript`
+note that you will continue working on the same repository from the previous exercise Prep-Challenges
+ 
 
-## User's guide
+Create a new branch git checkout -b exercise07
 
-- To retrieve the code challenge from problems space enter `npm run pull-challenge <challenge-number>`
+To retrieve the code challenge run this command: npm run pull-challenge <challenge-number>
 
-  - For example:
+Run:
 
-    ```bash
-    npm run pull-challenge 06
-    ```
+npm run pull-challenge 07
+Solve the problems.
 
-- To execute the tests run your the test from the root of `prep-challenges` repo :
+To execute the tests run the test from the root of Prep-Challenges repo (your new problem solving repo):
 
-  - to run all tests:`npm test`
-  - to run specific tests: `npm test <test-number>`
-    - For example: `npm test 06`
+to run all tests: npm test
+to run specific tests: npm test <test-number>
+For example: npm test 07
