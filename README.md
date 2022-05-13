@@ -1,19 +1,15 @@
-# prep code Challenges
+# Hacker Rank 
 
-## Language: `JavaScript`
+Thursdays code challenges aims to add some points to your hacker rank account
 
-## User's guide
+please create your own account and try to solve as much as you can even if it was not an assignment, since a lot of employers take hacker rank profile into consideration
 
-- To retrieve the code challenge from problems space enter `npm run pull-challenge <challenge-number>`
+## nnb file
+Basically it is a notebook where you can write MD and JS in the same time.
 
-  - For example:
+And Mainly to run codes that require so much time separately.
 
-    ```bash
-    npm run pull-challenge 06
-    ```
+You need to install the following extensions:
 
-- To execute the tests run your the test from the root of `prep-challenges` repo :
-
-  - to run all tests:`npm test`
-  - to run specific tests: `npm test <test-number>`
-    - For example: `npm test 06`
+Node.js Notebooks (REPL)
+Jupyter 
