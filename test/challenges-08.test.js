@@ -1,5 +1,5 @@
 const {
-  
+
     customerAndAge,
     getEntries,
     courses,
@@ -65,6 +65,7 @@ const {
       expect(getStudents(test1)).toEqual(res1);
       expect(getStudents(test2)).toEqual(res2);
     });
+  });
 
   });
 
