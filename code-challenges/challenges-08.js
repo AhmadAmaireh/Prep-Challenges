@@ -28,6 +28,11 @@
 
 const customerAndAge = (obj) => {
   // write your code here
+  let arr = [];
+  for (let str in obj) {
+    arr.push(`Customer Name :${str} , Age :${obj[str]}`);
+  }
+  return arr;
 };
 // -------------------------------------------------------------------------------------------------------
 
@@ -67,28 +72,28 @@ const getEntries = (obj) => {
 
 const courses = [
   {
-    course: 'Java',
-    Instructor: 'David',
-    Students: ['Lincoln', 'Ruth', 'Briana', 'Suzy', 'Greta'],
-    GroupName: 'Stars',
+    course: "Java",
+    Instructor: "David",
+    Students: ["Lincoln", "Ruth", "Briana", "Suzy", "Greta"],
+    GroupName: "Stars",
   },
   {
-    course: 'JavaScript',
-    Instructor: 'Van',
-    Students: ['Alphonso', 'Daley', 'Dax', 'Karter', 'Jorja'],
-    GroupName: 'Nerd-ware',
+    course: "JavaScript",
+    Instructor: "Van",
+    Students: ["Alphonso", "Daley", "Dax", "Karter", "Jorja"],
+    GroupName: "Nerd-ware",
   },
   {
-    course: 'Python',
-    Instructor: 'Delaney',
-    Students: ['Barney', 'Kalé', 'Alisha'],
-    GroupName: 'Whats-Up',
+    course: "Python",
+    Instructor: "Delaney",
+    Students: ["Barney", "Kalé", "Alisha"],
+    GroupName: "Whats-Up",
   },
   {
-    course: 'DotNet',
-    Instructor: 'Keanna',
-    Students: ['Oli', 'Gisselle', 'Pru'],
-    GroupName: 'Lol',
+    course: "DotNet",
+    Instructor: "Keanna",
+    Students: ["Oli", "Gisselle", "Pru"],
+    GroupName: "Lol",
   },
 ];
 
@@ -109,7 +114,7 @@ const getInfo = (arr) => {
 // and return their info following the below structure
 //
 // Input: ['Kalé', 'Alisha','Alphonso', 'Briana']
-// Output: 
+// Output:
 // [
 //   {
 //     Student: 'Kalé',
